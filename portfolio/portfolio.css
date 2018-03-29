@@ -1,0 +1,20 @@
+[class*='column-'] {
+	padding: 1em;
+	border-top: 0.07em solid #5993BA;
+}
+
+[class*='column-']:first-of-type {
+	border-top: 0;
+}
+
+@media screen and (min-width: 640px) {
+	[class*='column-'] {
+		border-top: 0;
+		padding-left: 0; 
+	}
+
+	[class*='column-']:first-of-type {
+		border-top: 0;
+		padding-left: 1em; 
+	}
+}

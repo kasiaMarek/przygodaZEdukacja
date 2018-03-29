@@ -1,0 +1,25 @@
+h3 {
+	margin-left: 1em;
+	margin-bottom: 1em; 
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+p a {
+	word-break: break-all;
+}
+.row img {
+	width: 100%;
+}
+
+.row {
+	padding: 1em;
+	padding-bottom: 0em;
+}
+
+[class*='column-'] {
+	padding-right: 0.5em;
+	padding-left: 0.5em;  
+}
