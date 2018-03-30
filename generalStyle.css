@@ -27,7 +27,7 @@ header {
 p, li {
 	margin-top: 0em;
 	margin-bottom: 0em;
-	font-family: 'Mukta Malar', cursive;
+	font-family: 'Quicksand', 'Arial';
 }
 
 nav ul {
@@ -108,7 +108,7 @@ img {
 
 .container {
 	color: #454545;
-	font-family: 'Montserrat', cursive;
+	font-family: 'Montserrat', 'Arial';
  	width: 100.0%;
  	margin: auto;
  	background-color: #f8f8ff;
@@ -125,7 +125,7 @@ img {
 }
 
 .title p, .subtitle p {
-	font-family: 'Montserrat', cursive;
+	font-family: 'Montserrat', 'Arial';
 }
 
 .subtitle {
@@ -239,6 +239,14 @@ img {
 		margin-left: 0;
 	 }
 
+	 #semester .column-03{
+	 	width: 50%;
+	 }
+
+	 #semester .column-03:first-of-type {
+	 	width: 100%;
+	 }
+
 }
 @media screen and (min-width: 1000px) {
 	.container {
@@ -247,4 +255,12 @@ img {
 	.source {
 		font-size: 0.9em;
 	}
+
+	#semester .column-03{
+	 	width: 33.3%;
+	 }
+	 #semester .column-03:first-of-type {
+	 	width: 33.3%;
+	 }
+
 }
