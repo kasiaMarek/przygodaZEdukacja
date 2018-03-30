@@ -23,6 +23,7 @@ header {
 	background-color: #efeff8;
 	position: relative;
 }
+
 p, li {
 	margin-top: 0em;
 	margin-bottom: 0em;
@@ -36,15 +37,12 @@ nav ul {
 li {
 	text-align: left;
 }
+
 footer {
 	padding: 0.5em;
 	text-align: right;
 	padding-right: 1em; 
 	color: #755D3D;
-}
-
-.button a {
-	color: #454545;
 }
 
 a {
@@ -70,12 +68,20 @@ img {
 	max-width: 100%;
 }
 
+.button a {
+	color: #454545;
+}
+
+.button a:hover {
+	color: #376A8C;
+}
+
 .more {
 	list-style-type: none;
 }
 
 .source {
-	font-size: 0.9em;
+	font-size: 0.75em;
 }
 
 .myPhoto {
@@ -237,5 +243,8 @@ img {
 @media screen and (min-width: 1000px) {
 	.container {
 		width: 1000px;
+	}
+	.source {
+		font-size: 0.9em;
 	}
 }
